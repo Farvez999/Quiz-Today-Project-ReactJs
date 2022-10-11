@@ -4,7 +4,7 @@ Welcome to the world’s largest quiz community.Play a quiz or create your own. 
 
 
 ## Live Link
-Hosted in Netlify -> [Quiz Today](https://shome-shop.netlify.app/)
+Hosted in Netlify -> [Quiz Today](https://courageous-ganache-100de7.netlify.app/)
 
 ## QUIZ API LINK
 
