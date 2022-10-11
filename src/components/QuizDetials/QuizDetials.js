@@ -1,5 +1,4 @@
 import React from 'react';
-import QuizOption from '../QuizOption/QuizOption';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -58,21 +57,6 @@ const QuizDetials = ({ options }) => {
                 </div>
 
             </div>
-            {/* <div className="card w-96 bg-white shadow-xl">
-                <div className="card-body">
-                    <h2 className="card-title">{options.question}</h2>
-                    <p>Option</p>
-                    <div>
-                        {
-                            options.options.map(option => <QuizOption option={option}></QuizOption>
-                            )
-                        }
-                    </div>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </div> */}
 
 
 

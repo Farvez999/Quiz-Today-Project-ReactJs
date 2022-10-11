@@ -6,6 +6,7 @@ import { getCartAndProductsData } from '../loaders/getCartAndProductsData';
 import Home from '../components/Home/Home';
 import Quiz from '../components/Quiz/Quiz';
 import SingleQuiz from '../components/SingleQuiz/SingleQuiz';
+import Statistics from '../components/Statistics/Statistics';
 
 export const router = createBrowserRouter([{
     path: '/',
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([{
                 return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
             },
             element: <SingleQuiz></SingleQuiz>,
+        },
+        {
+            path: '/statistics',
+            element: <Statistics></Statistics>,
         },
 
     ]

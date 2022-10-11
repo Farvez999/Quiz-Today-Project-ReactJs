@@ -31,23 +31,23 @@ const Header = () => {
                         </li>
                         <li>
                             <Link
-                                to='/quiz'
-                                aria-label='Shop'
-                                title='Shop'
+                                to='/statistics'
+                                aria-label='Statistics'
+                                title='Statistics'
                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                             >
-                                Quiz
+                                Statistics
                             </Link>
                         </li>
                         <li>
                             <Link
-                                to='/cart'
-                                aria-label='Cart'
-                                title='Cart'
+                                to='/blog'
+                                aria-label='Blog'
+                                title='Blog'
                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                             >
 
-                                <p> Cart</p>
+                                <p> Blog</p>
                             </Link>
                         </li>
                         <li>
@@ -127,22 +127,22 @@ const Header = () => {
                                         <ul className='space-y-4'>
                                             <li>
                                                 <Link
-                                                    to='/shop'
-                                                    aria-label='Shop'
-                                                    title='Shop'
+                                                    to='/statistics'
+                                                    aria-label='Statistics'
+                                                    title='Statistics'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    Shop
+                                                    Statistics
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/cart'
-                                                    aria-label='Cart'
-                                                    title='Cart'
+                                                    to='/blog'
+                                                    aria-label='Blog'
+                                                    title='Blog'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    <p> Cart</p>
+                                                    <p> Blog</p>
                                                 </Link>
                                             </li>
                                             <li>

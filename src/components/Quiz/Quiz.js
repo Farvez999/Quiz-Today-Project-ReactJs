@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Quiz = ({ quiz, handlePlayQuiz }) => {
+const Quiz = ({ quiz }) => {
     const { id, name, logo, total } = quiz;
     console.log()
     return (
