@@ -5,7 +5,6 @@ import SingleQuiz from '../SingleQuiz/SingleQuiz';
 
 const Home = () => {
     const quizs = useContext(QuizContext)
-    // console.log(quizs.data)
 
     return (
         <div>
@@ -63,14 +62,7 @@ const Home = () => {
                                 Play a quiz or create your own. Join a virtual or live event. There's a Sporcle for everyone!
                             </p>
                         </div>
-                        <div>
-                            <a
-                                href="/"
-                                className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
-                            >
-                                Get started
-                            </a>
-                        </div>
+
                     </div>
                 </div>
             </div>

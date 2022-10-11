@@ -3,13 +3,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const QuizDetials = ({ options }) => {
-    console.log(options);
-    console.log('C:', options.correctAnswer);
 
 
     const checkOption = (option) => {
-        console.log(option);
-        console.log('C:', options.correctAnswer);
+        // console.log(option);
+        // console.log('C:', options.correctAnswer);
         if (option === options.correctAnswer) {
             toast.success('You are right', { autoClose: 500, position: toast.POSITION.TOP_CENTER })
         } else {

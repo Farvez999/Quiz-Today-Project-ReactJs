@@ -4,16 +4,16 @@ import QuizDetials from '../QuizDetials/QuizDetials';
 
 const SingleQuiz = () => {
     const quiz = useLoaderData()
-    const { name, total, questions, question, correctAnswer } = quiz.data
-    // console.log(quiz.data.questions[0].options[0])
-    console.log(quiz.data.questions)
+    const { name } = quiz.data;
     return (
         <div>
-            <h2>Quiz of {name}</h2>
+            <h2 className='text-2xl font-bold'>Quiz of {name}</h2>
 
             {
                 quiz.data.questions.map(options => <QuizDetials
-                    options={options}></QuizDetials>)
+                    key={options.id}
+                    options={options}
+                ></QuizDetials>)
             }
 
         </div>
