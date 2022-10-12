@@ -2,6 +2,12 @@
 
 Welcome to the world’s largest quiz community.Play a quiz or create your own. Join a virtual or live event. There's a Sporcle for everyone!
 
+This is a quiz web site. There are so many quizzes through which we can develop our intelligence.  Here are some questions along with the quiz.  Have a chat.
+
+--Quiz
+--Blog
+--Statistics
+
 
 ## Live Link
 Hosted in Netlify -> [Quiz Today](https://courageous-ganache-100de7.netlify.app/)
