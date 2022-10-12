@@ -17,14 +17,16 @@ const Statistics = () => {
 
 
     return (
-        <div className=' my-40'>
+        <div className='mx-auto w-96 h-80 my-24'>
+            <ResponsiveContainer width="100%" height="100%">
+                <BarChart width={500} height={400} data={quizData}>
+                    <Bar dataKey="total" fill="#8884d8" />
+                    <XAxis dataKey="name"></XAxis>
+                    <YAxis></YAxis>
+                    <Tooltip></Tooltip>
+                </BarChart>
 
-            <BarChart width={500} height={400} data={quizData}>
-                <Bar dataKey="total" fill="#8884d8" />
-                <XAxis dataKey="name"></XAxis>
-                <YAxis></YAxis>
-                <Tooltip></Tooltip>
-            </BarChart>
+            </ResponsiveContainer>
 
 
         </div>
